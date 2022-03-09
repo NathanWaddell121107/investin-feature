@@ -7,7 +7,7 @@ interface Props {
 export const InvestinFund: React.FC<Props> = ({ test }) => {
   return (
     <div>
-      <div>Investin fund container</div>
+      <div>Individual investin fund container</div>
     </div>
   );
 };
