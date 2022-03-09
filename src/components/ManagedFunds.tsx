@@ -41,9 +41,5 @@ const dataSource = [
 ];
 
 export const ManagedFunds: React.FC = () => {
-  return (
-    <div>
-      <Table columns={columns} dataSource={dataSource} />
-    </div>
-  );
+  return <Table className='w-full' columns={columns} dataSource={dataSource} />;
 };
